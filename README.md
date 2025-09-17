@@ -104,7 +104,7 @@ The page includes sections for hero, products, daily benefits, routine, reviews,
 
 ## How to Run
 
-1. Clone the repository or download the project.
+1. Clone the repository https://github.com/andrearecuyo/24-hour-code-challenge-d1.git or download the project.
 2. Open `index.html` in a web browser.
 3. Ensure `main.css` is compiled and linked properly for styling.
 4. Interact with the page sections and features implemented with JavaScript.
