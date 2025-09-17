@@ -1,0 +1,135 @@
+@use '../base/variables';
+
+.hero {
+  background: linear-gradient(
+    232deg,
+    rgb(70, 78, 112) 0%,
+    rgb(32, 55, 70) 100%
+  );
+}
+
+.hero {
+  h1 {
+    font-size: variables.$font-size-64;
+    color: variables.$color-light;
+    letter-spacing: -1.07px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    line-height: 55px;
+    width: 670px;
+  }
+  p {
+    color: variables.$color-light;
+    font-family: variables.$font-roboto-mono;
+    font-size:variables.$font-size-18;
+    text-transform: uppercase;
+    font-weight: variables.$font-weight-regular;
+  }
+  .button {
+    width: 314px;
+    height: 56px;
+  }
+  .hero-products {
+    margin-left: 80px;
+  }
+}
+
+.hero-content {
+  padding: 59px 0 10px 0;
+  .hero-text {
+    padding-bottom: 170px;
+  }
+  .hero-ratings {
+    img {
+      width: 116px;
+      height: 18px;
+    }
+    .badge {
+      font-family: variables.$font-roboto-mono;
+      color: variables.$color-dark;
+      background-color: variables.$color-light;
+      font-size: variables.$font-size-14;
+      font-weight: variables.$font-weight-semi-bold;
+      place-content: center;
+      width: 39px;
+      height: 39px;
+      padding: 0;
+    }
+    strong {
+      font-family: variables.$font-roboto-mono;
+      font-size: variables.$font-size-14;
+      font-weight: variables.$font-weight-bold;
+      text-transform: uppercase;
+      color: variables.$color-light;
+    }
+  }
+}
+
+
+
+// Tablet adjustments
+@media (max-width: variables.$tablet) {
+  .hero {
+    .hero-content {
+      flex-direction: column-reverse;
+      text-align: center;
+      padding: 20px 0 10px 0;
+
+      .columns {
+        width: 100%;
+        margin: 20px 0 0 0;
+        margin: 40px 0 0 0;
+        justify-items: center;
+      }
+      
+      .hero-ratings {
+        justify-items: anchor-center;
+      }
+
+      .hero-text {
+        padding-bottom: 50px;
+        h1 {
+          font-size: variables.$font-size-50;
+          line-height: 1.2;
+          width: 100%;
+        }
+        p {
+          font-size: variables.$font-size-14;
+        }
+      }
+    }
+    .hero-products {
+      margin-left: 0;
+      width: 60%;
+    }
+  }
+}
+
+// Mobile adjustments
+@media (max-width: variables.$mobile) {
+  .hero {
+    padding: 0 20px;
+
+    .hero-content {
+      .hero-text {
+        padding-bottom: 26px;
+        h1 {
+          font-size: variables.$font-size-36;
+          width: 100%;
+          padding-top: 20px;
+          line-height: 36px;
+        }
+        p {
+          font-size: variables.$font-size-14;
+          width: 100%;
+        }
+        .button {
+          width: 100%;
+        }
+      }
+    }
+    .hero-products {
+      margin-left: 0;
+    }
+  }
+}

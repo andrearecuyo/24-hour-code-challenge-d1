@@ -1,0 +1,98 @@
+@use 'variables' as *;
+
+body {
+  font-family: $font-inter;
+}
+h1, h2 {
+  font-family: $font-inter;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.2;
+  color: $color-dark;
+
+  &.light {
+    color: $color-light-offwhite;
+  }
+}
+
+h3 {
+  font-family: $font-aktiv-grotesk;
+  font-weight: 800;
+  font-size: 32px;
+  text-align: center;
+  color: $color-dark;
+}
+
+h4 {
+  font-family: $font-aktiv-grotesk;
+  font-weight: 700;
+  font-size: 21px;
+  color: $color-light-offwhite;
+}
+
+.body-large {
+  font-family: $font-gellix;
+  font-weight: 500;
+  font-size: 21px;
+  color: $color-dark-50;
+}
+
+.body-regular {
+  font-family: $font-roboto-mono;
+  font-weight: 400;
+  font-size: 18px;
+  color: $color-dark;
+}
+
+.body-light {
+  font-family: $font-gellix;
+  font-weight: 500;
+  font-size: 18px;
+  color: $color-light-50;
+}
+
+.body-smallest {
+  font-family: $font-gellix;
+  font-weight: 500;
+  font-size: 12px;
+  color: $color-light;
+}
+
+// Details
+.detail-small {
+  font-family: $font-goldplay;
+  font-weight: 500;
+  font-size: 15px;
+  color: $color-dark;
+}
+
+.detail-small-bold {
+  font-family: $font-goldplay;
+  font-weight: 600;
+  font-size: 15px;
+  color: $color-dark;
+
+  &.white {
+    color: $color-white;
+  }
+}
+
+.callout {
+  font-family: $font-gellix;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.small-bold {
+  font-family: $font-gellix;
+  font-weight: 700;
+  font-size: 14px;
+  color: $color-dark;
+}
+
+.sub-smaller {
+  font-family: $font-gellix;
+  font-weight: 600;
+  font-size: 11px;
+  color: $color-dark-50;
+}

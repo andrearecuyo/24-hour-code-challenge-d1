@@ -1,0 +1,62 @@
+@mixin text-style($style, $color: null) {
+  @if $style == 'h1' {
+    font-family: $font-inter;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1.2;
+  } @else if $style == 'h2' {
+    font-family: $font-inter;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1.2;
+  } @else if $style == 'h3' {
+    font-family: $font-aktiv;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+  } @else if $style == 'h4' {
+    font-family: $font-aktiv;
+    font-weight: 700;
+    font-size: 21px;
+  } @else if $style == 'body-large' {
+    font-family: $font-gellix;
+    font-weight: 500;
+    font-size: 21px;
+  } @else if $style == 'body-regular' {
+    font-family: $font-roboto-mono;
+    font-weight: 400;
+    font-size: 18px;
+  } @else if $style == 'body-light' {
+    font-family: $font-gellix;
+    font-weight: 500;
+    font-size: 18px;
+  } @else if $style == 'body-smallest' {
+    font-family: $font-gellix;
+    font-weight: 500;
+    font-size: 12px;
+  } @else if $style == 'detail-small' {
+    font-family: $font-goldplay;
+    font-weight: 500;
+    font-size: 15px;
+  } @else if $style == 'detail-small-bold' {
+    font-family: $font-goldplay;
+    font-weight: 600;
+    font-size: 15px;
+  } @else if $style == 'callout' {
+    font-family: $font-gellix;
+    font-weight: 700;
+    font-size: 16px;
+  } @else if $style == 'small-bold' {
+    font-family: $font-gellix;
+    font-weight: 700;
+    font-size: 14px;
+  } @else if $style == 'sub-smaller' {
+    font-family: $font-gellix;
+    font-weight: 600;
+    font-size: 11px;
+  }
+
+  @if $color != null {
+    color: $color;
+  }
+}

@@ -1,0 +1,105 @@
+@use '../base/variables';
+
+.free-shipping {
+  font-family: variables.$font-roboto-mono;
+  background-color: variables.$color-yellow;
+  height: 27px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.site-header {
+  background-color: variables.$color-light;
+  .logo {
+    height: 55px;
+    width: 100%;
+  }
+  .logo img {
+    height: 55px;
+    width: 42px;
+  }
+  .top-bar {
+    padding: 2px 20px;
+    align-content: center;
+  }
+  .top-bar-right {
+    height: 55px;
+  }
+  .button.dark {
+    width: 201px;
+    height: 46px;
+    background-color: variables.$color-dark;
+    margin-right: 29px;
+  }
+  .cart {
+    width: 36.52px;
+    height: 32.88px;
+    cursor: pointer;
+    position: relative;
+    .quantity {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      background-color: rgba(0, 0, 0, 1);
+      color: rgba(255, 255, 255, 1);
+      font-family: variables.$font-roboto-mono;
+      font-size: 18px;
+      font-weight: 400;
+      right: -10px;
+      top: -7px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: variables.$mobile) {
+  .site-header {
+    .top-bar {
+      padding: 5px 20px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .top-bar-left {
+      width: 100%;
+    }
+    .nav {
+      width: auto;
+    }
+
+    .logo, .logo img {
+      height: 40px;
+      width: auto;
+    }
+
+    .button.dark {
+      display: none;
+    }
+
+    .cart {
+      width: 30px;
+      height: 28px;
+
+      .quantity {
+        width: 18px;
+        height: 18px;
+        font-size: 12px;
+        right: -6px;
+        top: -5px;
+      }
+    }
+  }
+
+  .free-shipping {
+    font-size: 10px;
+    line-height: 24px;
+    height: auto;
+    padding: 2px 5px;
+  }
+}

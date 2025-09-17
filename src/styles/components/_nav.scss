@@ -1,0 +1,81 @@
+@use '../base/variables';
+
+.top-bar ul {
+  background-color: unset;
+}
+
+.nav {
+  width: 100%;
+}
+
+ul#menu {
+  display: none;
+
+  li a {
+    width: 100%;
+    display: block;
+    background-color: variables.$color-dark;
+    color: variables.$color-light;
+    font-size: 1em;
+    padding: 1.5em 1.6em;
+    text-decoration: none;
+    transition: background 0.2s;
+
+    &:hover {
+      background-color: variables.$color-dark-blue;
+    }
+  }
+}
+
+%burger {
+  height: 2px;
+  background: variables.$color-dark;
+  content: '';
+  position: relative;
+  transition: 0.25s ease-in-out;
+}
+
+ul.hamburger {
+  display: block;
+
+  li {
+    @extend %burger;
+
+    &:nth-child(1) {
+      top: 0;
+    }
+    &:nth-child(2) {
+      top: 5px;
+    }
+    &:nth-child(3) {
+      top: 10px;
+    }
+  }
+}
+
+.hamburger-container {
+  width: 32px;
+  height: 22px;
+  cursor: pointer;
+}
+
+// animations
+.hidden {
+  opacity: 0;
+}
+
+.rot42deg {
+  transform: rotate(42deg);
+  top: 7px !important;
+}
+
+.rot-315deg {
+  transform: rotate(315deg);
+}
+
+.menu-list {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 85px;
+}

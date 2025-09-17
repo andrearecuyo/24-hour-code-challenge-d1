@@ -1,0 +1,66 @@
+//Font Family
+$font-inter: 'Inter', sans-serif;
+$font-gellix: 'Gellix', sans-serif;
+$font-goldplay: 'Goldplay', sans-serif;
+$font-roboto-mono: 'Roboto Mono', monospace;
+$font-aktiv-grotesk: 'Aktiv Grotesk Ex', sans-serif;
+
+// Font Weights
+$font-weight-thin: 100;
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-black: 900;
+
+//Font Sizes
+$font-size-2: 0.125rem;   // 2px
+$font-size-4: 0.25rem;    // 4px
+$font-size-6: 0.375rem;   // 6px
+$font-size-8: 0.5rem;     // 8px
+$font-size-10: 0.625rem;  // 10px
+$font-size-12: 0.75rem;   // 12px
+$font-size-14: 0.875rem;  // 14px
+$font-size-16: 1rem;      // 16px
+$font-size-18: 1.125rem;  // 18px
+$font-size-20: 1.25rem;   // 20px
+$font-size-24: 1.5rem;    // 24px
+$font-size-28: 1.75rem;   // 28px
+$font-size-32: 2rem;      // 32px
+$font-size-36: 2.25rem;   // 36px
+$font-size-40: 2.5rem;    // 40px
+$font-size-44: 2.75rem;   // 44px
+$font-size-48: 3rem;      // 48px
+$font-size-50: 3.125rem;  // 50px 
+$font-size-56: 3.5rem;    // 56px
+$font-size-60: 3.75rem;   // 60px
+$font-size-64: 4rem;      // 64px
+$font-size-72: 4.5rem;    // 72px
+$font-size-80: 5rem;      // 80px
+
+// Colors 
+$color-light: #ffffff;
+$color-dark: #2e302e;
+$color-blue: #00a9e0;
+$color-charcoal-green: #1d3c34;
+$color-dark-blue: #002657;
+
+$color-light-offwhite: #fffaf6;
+$color-mint-white: #f5feff;
+$color-white: #ffffff;
+
+$color-orange: #ff5f00;
+$color-salmon: #ea6854;
+$color-seafoam: #e0f2ec;
+
+$color-yellow: #FFBA00;
+
+$color-dark-50: rgba($color-dark, 0.5);
+$color-light-50: rgba($color-white, 0.5);
+
+// breakpoints
+$tablet: 1024px;
+$mobile: 640px;
