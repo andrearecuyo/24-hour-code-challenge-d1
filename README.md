@@ -1,6 +1,6 @@
 # 24-Hour Code Challenge | D1 Ecommerce Page
 
-Live:  [Link]([https://andrearecuyo.github.io/24-hour-code-challenge-d1])
+Live:  [https://andrearecuyo.github.io/24-hour-code-challenge-d1](https://andrearecuyo.github.io/24-hour-code-challenge-d1)
 
 ## Project Overview
 This project is a 24-hour code challenge to recreate a D1 ecommerce page for my application for Ecommerce Developer. The goal was to analyze the design, organize assets, implement responsive layouts using the Foundation framework, and build a maintainable and semantic HTML/CSS structure.
