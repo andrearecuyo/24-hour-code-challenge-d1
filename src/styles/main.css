@@ -1616,7 +1616,7 @@ ul.hamburger li:nth-child(3) {
   text-align: center;
 }
 .results .results-section {
-  background: url("../../../src/images/results/d1-man-skincare.png") 50% no-repeat;
+  background: url("../../src/images/results/d1-man-skincare.png") 50% no-repeat;
   background-size: cover;
   height: 756px;
   display: flex;
